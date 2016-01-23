@@ -148,7 +148,7 @@ Rendering the `App` component with the shallow renderer will not render the `spa
 `Text` component with the props.  If you wanted to test for the content of the span elements, you'd 
 need to use `TestUtils.renderIntoDocument(...)`, or `ReactDOM.render(...)`
 
-Because `unexpected-react` be default ignores wrapper elements, and also "extra" children (child
+Because `unexpected-react` by default ignores wrapper elements, and also "extra" children (child
 nodes that appear in the actual render, but are not in the expected result), it is possible to test both scenarios 
 with the full renderer. To demonstrate, all the following tests will pass:
 
